@@ -18,8 +18,8 @@ class ValidatePasswordServiceImplTest : AbstractIntegrationTest() {
         assertEquals(false, validator("aa"))
         assertEquals(false, validator("ab"))
         assertEquals(false, validator("AAAbbbCc"))
-        //assertEquals(false, validator("AbTp9!foo"))
-        //assertEquals(false, validator("AbTp9!foA"))
+        assertEquals(false, validator("AbTp9!foo"))
+        assertEquals(false, validator("AbTp9!foA"))
         assertEquals(false, validator("AbTp9 fok"))
     }
 
