@@ -18,6 +18,15 @@ The rules for validation are:
    - Consider the following characters as special: !@#$%^&*()-+
  - Do not have repeated characters within the set
 
+# Desenvolvimento 
+
+To start the development, the TDD (Test Driven Development) concept was used.
+All password validations were performed first in the Unit tests.
+
+For the construction of the Validation Rule the website was used: https://ihateregex.io/
+
+Tool used to test the API: https://www.postman.com/
+
 # Stack: 
 
   Language: Kotlin (v1.4.32)
@@ -62,5 +71,3 @@ The rules for validation are:
       {
         "password": "senha"
       }
-    
-
