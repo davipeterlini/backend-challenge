@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /
+
+management:
+  endpoints:
+    web:
+      base-path:
+  enabled-by-default: false
+  endpoint:
+    health:
+      show-details: always
+  health:
+    diskspace:
+      enabled: false
+    defaults:
+      enabled: false
+
+app:
+  global-config:
+    buildNumber: 1.0.0
